@@ -31,7 +31,6 @@ const closeModal = () => {
   showModal.value = false
 }
 
-// Expose actions to child components
 defineExpose({
   actions,
   handleSubmit
