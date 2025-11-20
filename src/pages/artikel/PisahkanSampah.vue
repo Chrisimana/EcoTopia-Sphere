@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-white">
-    <!-- Header Article -->
+    <!-- Header -->
     <header class="bg-background text-white py-16">
       <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto text-center">
@@ -10,13 +10,13 @@
       </div>
     </header>
 
-    <!-- Article Content -->
+    <!-- Content -->
     <main class="container mx-auto px-4 py-12">
       <article class="max-w-6xl mx-auto">
-        <!-- Introduction -->
+        <!-- Pembuka -->
         <div class="prose prose-lg max-w-none mb-12">
           <p class="text-background leading-relaxed text-lg text-justify">
-
+            Sampah merupakan salah satu tantangan lingkungan terbesar abad ke-21. Meningkatnya populasi, urbanisasi, dan pola konsumsi masyarakat modern menyebabkan volume sampah terus meningkat setiap tahun. Berdasarkan data Kementerian Lingkungan Hidup dan Kehutanan (KLHK, 2023), Indonesia menghasilkan lebih dari 68 juta ton sampah per tahun, dan sekitar 40% di antaranya tidak terkelola dengan baik. Masalah utama bukan hanya banyaknya sampah, melainkan minimnya pemisahan sampah di sumbernya baik di rumah tangga, perkantoran, maupun fasilitas publik. Padahal, pemisahan sampah (waste segregation) adalah langkah pertama dan paling penting dalam sistem pengelolaan sampah terpadu. Artikel ini membahas konsep ilmiah, manfaat ekologis, dan tips praktis dalam menerapkan pemisahan sampah yang efektif sebagai fondasi menuju lingkungan yang bersih, sehat, dan berkelanjutan.
           </p>
         </div>
 

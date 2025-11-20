@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-white">
-    <!-- Header Article -->
+    <!-- Header -->
     <header class="bg-background text-white py-16">
       <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto text-center">
@@ -10,17 +10,17 @@
       </div>
     </header>
 
-    <!-- Article Content -->
+    <!-- Content -->
     <main class="container mx-auto px-4 py-12">
       <article class="max-w-6xl mx-auto">
-        <!-- Introduction -->
+        <!-- Pembuka -->
         <div class="prose prose-lg max-w-none mb-12">
           <p class="text-background leading-relaxed text-lg text-justify">
             Kemajuan teknologi transportasi modern telah membuka jalan bagi revolusi energi bersih melalui kehadiran kendaraan listrik (Electric Vehicles/EV). Kendaraan ini dianggap sebagai salah satu inovasi paling signifikan dalam upaya mengurangi ketergantungan pada bahan bakar fosil dan menurunkan emisi karbon dioksida (CO₂) global. Dalam konsep Smart City, kendaraan listrik memainkan peran sentral sebagai bagian dari ekosistem smart mobility sistem transportasi yang efisien, cerdas, dan ramah lingkungan. Artikel ini menguraikan berbagai tips, strategi, serta aspek ilmiah dari penggunaan kendaraan listrik dalam mendukung keberlanjutan dan efisiensi energi perkotaan.
           </p>
         </div>
 
-        <!-- Content Sections -->
+        <!-- Sections -->
         <div class="space-y-12">
           <section>
             <h2 class="text-3xl font-bold text-background mb-6">1. Pahami Prinsip Kerja Kendaraan Listrik</h2>
@@ -114,7 +114,7 @@
 
         </div>
 
-        <!-- Conclusion -->
+        <!-- Kesimpulan -->
         <div class="bg-secondary p-8 rounded-lg mt-16">
           <h3 class="text-2xl font-bold text-background mb-4">Kesimpulan</h3>
           <p class="text-background text-lg leading-relaxed text-justify">

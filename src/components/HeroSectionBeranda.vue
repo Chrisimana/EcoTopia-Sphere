@@ -1,7 +1,7 @@
 <template>
   <section class="relative text-white min-h-screen flex items-center">
 
-    <!-- Background Image -->
+    <!-- Background -->
     <div class="absolute inset-0 bg-background/70 z-0"></div>
     <div class="absolute inset-0 z-0">
       <img

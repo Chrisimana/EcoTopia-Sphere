@@ -45,7 +45,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 
-// Import semua SVG icons
+// Import icons
 import icon14 from '../assets/icons/14.svg'
 import icon15 from '../assets/icons/15.svg'
 import icon16 from '../assets/icons/16.svg'

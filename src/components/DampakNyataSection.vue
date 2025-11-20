@@ -8,7 +8,7 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 
-        <!-- Card 1: Penghematan Energi -->
+        <!-- Card 1 -->
         <div class="bg-white p-6 rounded-lg text-center transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-secondary group cursor-pointer">
           <div class="flex justify-center mb-4">
             <img :src="energiIcon" alt="Energi Icon" class="w-12 h-12 transition-all duration-300 group-hover:scale-110">
@@ -22,7 +22,7 @@
           </p>
         </div>
 
-        <!-- Card 2: Pengurangan Sampah Plastik -->
+        <!-- Card 2 -->
         <div class="bg-white p-6 rounded-lg text-center transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-secondary group cursor-pointer">
           <div class="flex justify-center mb-4">
             <img :src="plastikIcon" alt="Plastik Icon" class="w-12 h-12 transition-all duration-300 group-hover:scale-110">
@@ -36,7 +36,7 @@
           </p>
         </div>
 
-        <!-- Card 3: Transportasi Ramah Lingkungan -->
+        <!-- Card 3 -->
         <div class="bg-white p-6 rounded-lg text-center transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-secondary group cursor-pointer">
           <div class="flex justify-center mb-4">
             <img :src="sepedaIcon" alt="Sepeda Icon" class="w-12 h-12 transition-all duration-300 group-hover:scale-110">
@@ -50,7 +50,7 @@
           </p>
         </div>
 
-        <!-- Card 4: Partisipasi Masyarakat Hijau -->
+        <!-- Card 4 -->
         <div class="bg-white p-6 rounded-lg text-center transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-secondary group cursor-pointer">
           <div class="flex justify-center mb-4">
             <img :src="orangIcon" alt="Orang Icon" class="w-12 h-12 transition-all duration-300 group-hover:scale-110">
@@ -79,7 +79,7 @@ const animatedValues = ref([0, 0, 0, 0])
 const finalValues = [75, 45, 75, 80]
 
 onMounted(() => {
-  // Semua animasi mulai bersamaan tanpa delay
+  // animasi
   finalValues.forEach((finalValue, index) => {
     let current = 0
     const interval = setInterval(() => {

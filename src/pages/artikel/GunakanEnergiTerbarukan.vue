@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-white">
-    <!-- Header Article -->
+    <!-- Header -->
     <header class="bg-background text-white py-16">
       <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto text-center">
@@ -10,17 +10,17 @@
       </div>
     </header>
 
-    <!-- Article Content -->
+    <!-- Content -->
     <main class="container mx-auto px-4 py-12">
       <article class="max-w-6xl mx-auto">
-        <!-- Introduction -->
+        <!-- Pembuka -->
         <div class="prose prose-lg max-w-none mb-12">
           <p class="text-background leading-relaxed text-lg text-justify">
             Kebutuhan energi global terus meningkat seiring pertumbuhan populasi dan urbanisasi yang pesat. Namun, ketergantungan terhadap sumber energi fosil seperti batu bara, minyak bumi, dan gas alam telah menimbulkan krisis lingkungan berupa polusi udara, emisi gas rumah kaca, serta perubahan iklim ekstrem. Sebagai solusi jangka panjang, dunia beralih menuju energi terbarukan (renewable energy) sumber energi yang berasal dari alam dan dapat diperbaharui secara berkelanjutan, seperti sinar matahari, angin, air, biomassa, dan panas bumi. Artikel ini menguraikan strategi dan tips penerapan energi terbarukan di berbagai skala mulai dari rumah tangga hingga kota cerdas berdasarkan landasan ilmiah dan pendekatan teknologi modern.
           </p>
         </div>
 
-        <!-- Content Sections -->
+        <!-- Sections -->
         <div class="space-y-12">
           <section>
             <h2 class="text-3xl font-bold text-background mb-6">1. Pahami Prinsip Energi Terbarukan</h2>
@@ -132,7 +132,7 @@
 
         </div>
 
-        <!-- Conclusion -->
+        <!-- Kesimpulan -->
         <div class="bg-secondary p-8 rounded-lg mt-16">
           <h3 class="text-2xl font-bold text-background mb-4">Kesimpulan</h3>
           <p class="text-background text-lg leading-relaxed text-justify">

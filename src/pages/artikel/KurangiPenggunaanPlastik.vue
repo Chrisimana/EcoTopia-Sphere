@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-white">
-    <!-- Header Article -->
+    <!-- Header -->
     <header class="bg-background text-white py-16">
       <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto text-center">
@@ -10,17 +10,17 @@
       </div>
     </header>
 
-    <!-- Article Content -->
+    <!-- Content -->
     <main class="container mx-auto px-4 py-12">
       <article class="max-w-6xl mx-auto">
-        <!-- Introduction -->
+        <!-- Pembuka -->
         <div class="prose prose-lg max-w-none mb-12">
           <p class="text-background leading-relaxed text-lg text-justify">
             Plastik telah menjadi bagian tak terpisahkan dari kehidupan modern, digunakan dalam hampir setiap aspek aktivitas manusia — mulai dari kemasan makanan, alat rumah tangga, hingga teknologi. Namun, kemudahan dan fleksibilitas plastik berbanding terbalik dengan dampak ekologisnya. Menurut data United Nations Environment Programme (UNEP, 2023), dunia memproduksi lebih dari 400 juta ton plastik setiap tahun, dan lebih dari separuhnya adalah plastik sekali pakai yang tidak dapat didaur ulang secara efektif. Di Indonesia, produksi sampah plastik mencapai lebih dari 11 juta ton per tahun, dengan sekitar 3,2 juta ton berakhir di laut. Kondisi ini menjadikan Indonesia sebagai salah satu penyumbang limbah plastik laut terbesar di dunia. Oleh karena itu, upaya mengurangi penggunaan plastik menjadi kebutuhan mendesak untuk mendukung pembangunan berkelanjutan dan melindungi ekosistem bumi. Artikel ini menguraikan strategi dan tips untuk mengurangi penggunaan plastik dalam kehidupan sehari-hari, disertai penjelasan dampak dan manfaatnya bagi lingkungan untuk menuju smart city
           </p>
         </div>
 
-        <!-- Content Sections -->
+        <!-- Sections -->
         <div class="space-y-12">
           <section>
             <h2 class="text-3xl font-bold text-background mb-6">1. Pahami Sifat dan Bahaya Plastik</h2>
@@ -159,7 +159,7 @@
 
         </div>
 
-        <!-- Conclusion -->
+        <!-- Kesimpulan -->
         <div class="bg-secondary p-8 rounded-lg mt-16">
           <h3 class="text-2xl font-bold text-background mb-4">Kesimpulan</h3>
           <p class="text-background text-lg leading-relaxed text-justify">

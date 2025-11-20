@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-white">
-    <!-- Header Article -->
+    <!-- Header -->
     <header class="bg-background text-white py-16">
       <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto text-center">
@@ -10,34 +10,23 @@
       </div>
     </header>
 
-    <!-- Article Content -->
+    <!-- Content -->
     <main class="container mx-auto px-4 py-12">
       <article class="max-w-6xl mx-auto">
-        <!-- Introduction -->
+        <!-- Pembuka -->
         <div class="prose prose-lg max-w-none mb-12">
           <p class="text-background leading-relaxed text-lg text-justify">
-            Cahaya alami, atau pencahayaan yang berasal langsung dari sinar matahari,
-            merupakan salah satu sumber energi paling berlimpah dan ramah lingkungan
-            di bumi. Dalam konteks arsitektur modern dan keberlanjutan, pemanfaatan
-            cahaya alami bukan hanya berfungsi sebagai penerangan, tetapi juga
-            memiliki peran penting dalam efisiensi energi, kesehatan manusia,
-            dan keseimbangan psikologis penghuni bangunan. Artikel ini akan menguraikan
-            sejumlah strategi dan tips ilmiah dalam memaksimalkan cahaya alami di lingkungan
-            hunian maupun perkantoran, serta menjelaskan manfaat ekologis dan fisiologis yang dihasilkannya.
+            Cahaya alami, atau pencahayaan yang berasal langsung dari sinar matahari, merupakan salah satu sumber energi paling berlimpah dan ramah lingkungan di bumi. Dalam konteks arsitektur modern dan keberlanjutan, pemanfaatan cahaya alami bukan hanya berfungsi sebagai penerangan, tetapi juga memiliki peran penting dalam efisiensi energi, kesehatan manusia, dan keseimbangan psikologis penghuni bangunan. Artikel ini akan menguraikan sejumlah strategi dan tips ilmiah dalam memaksimalkan cahaya alami di lingkungan hunian maupun perkantoran, serta menjelaskan manfaat ekologis dan fisiologis yang dihasilkannya.
           </p>
         </div>
 
-        <!-- Content Sections -->
+        <!-- Sections -->
         <div class="space-y-12">
           <section>
             <h2 class="text-3xl font-bold text-background mb-6">1. Pahami Pentingnya Spektrum Cahaya Alami</h2>
             <div class="prose prose-lg max-w-none text-gray-700">
               <p class="text-lg leading-relaxed text-justify">
-                Cahaya matahari mengandung seluruh spektrum warna cahaya, termasuk gelombang inframerah dan ultraviolet
-                dalam kadar alami. Spektrum ini membantu tubuh manusia dalam mengatur ritme sirkadian, yaitu siklus
-                biologis tidur dan bangun. Paparan cahaya alami di pagi hari meningkatkan produksi serotonin (hormon kebahagiaan)
-                dan menekan melatonin (hormon tidur), sehingga meningkatkan fokus dan energi. Ruangan dengan pencahayaan alami
-                yang baik mendukung kesehatan mental dan produktivitas kerja.
+                Cahaya matahari mengandung seluruh spektrum warna cahaya, termasuk gelombang inframerah dan ultraviolet dalam kadar alami. Spektrum ini membantu tubuh manusia dalam mengatur ritme sirkadian, yaitu siklus biologis tidur dan bangun. Paparan cahaya alami di pagi hari meningkatkan produksi serotonin (hormon kebahagiaan) dan menekan melatonin (hormon tidur), sehingga meningkatkan fokus dan energi. Ruangan dengan pencahayaan alami yang baik mendukung kesehatan mental dan produktivitas kerja.
               </p>
             </div>
           </section>
@@ -46,11 +35,7 @@
             <h2 class="text-3xl font-bold text-background mb-6">2. Desain Bukaan (Jendela) yang Efisien</h2>
             <div class="prose prose-lg max-w-none text-gray-700">
               <p class="text-lg leading-relaxed text-justify">
-                Posisi dan ukuran jendela sangat menentukan seberapa banyak cahaya alami dapat masuk ke dalam ruangan.
-                Arah timur dan barat ideal untuk pencahayaan pagi dan sore hari, tetapi perlu dilengkapi tirai peneduh
-                karena intensitas sinar langsung bisa menyebabkan panas berlebih. sedangkan arah utara dan selatan,
-                menghasilkan pencahayaan merata sepanjang hari tanpa panas ekstrem. Secara ilmiah, rasio luas jendela
-                terhadap luas lantai sebaiknya berada di kisaran 20–30%, agar ruangan cukup terang tanpa mengorbankan kenyamanan termal.
+                Posisi dan ukuran jendela sangat menentukan seberapa banyak cahaya alami dapat masuk ke dalam ruangan. Arah timur dan barat ideal untuk pencahayaan pagi dan sore hari, tetapi perlu dilengkapi tirai peneduh karena intensitas sinar langsung bisa menyebabkan panas berlebih. sedangkan arah utara dan selatan, menghasilkan pencahayaan merata sepanjang hari tanpa panas ekstrem. Secara ilmiah, rasio luas jendela terhadap luas lantai sebaiknya berada di kisaran 20–30%, agar ruangan cukup terang tanpa mengorbankan kenyamanan termal.
               </p>
             </div>
           </section>
@@ -148,17 +133,11 @@
         </div>
 
 
-        <!-- Conclusion -->
+        <!-- Kesimpulan -->
         <div class="bg-secondary p-8 rounded-lg mt-16">
           <h3 class="text-2xl font-bold text-background mb-4">Kesimpulan</h3>
           <p class="text-background text-lg leading-relaxed text-justify">
-            Pemanfaatan cahaya alami bukan hanya langkah estetis, tetapi merupakan
-            pendekatan ilmiah terhadap efisiensi energi, kesehatan manusia, dan keberlanjutan
-            lingkungan. Bangunan yang dirancang untuk memaksimalkan cahaya alami dapat mengurangi
-            konsumsi listrik, menurunkan suhu dalam ruangan secara alami, dan meningkatkan kesejahteraan
-            penghuninya. Melalui desain yang bijak—melibatkan jendela yang tepat, material reflektif, dan
-            sistem kontrol adaptif—cahaya alami dapat menjadi solusi cerdas menuju masa depan arsitektur
-            hijau yang hemat energi dan menyehatkan.
+            Pemanfaatan cahaya alami bukan hanya langkah estetis, tetapi merupakan pendekatan ilmiah terhadap efisiensi energi, kesehatan manusia, dan keberlanjutan lingkungan. Bangunan yang dirancang untuk memaksimalkan cahaya alami dapat mengurangi konsumsi listrik, menurunkan suhu dalam ruangan secara alami, dan meningkatkan kesejahteraan penghuninya. Melalui desain yang bijak—melibatkan jendela yang tepat, material reflektif, dan sistem kontrol adaptif—cahaya alami dapat menjadi solusi cerdas menuju masa depan arsitektur hijau yang hemat energi dan menyehatkan.
           </p>
         </div>
       </article>

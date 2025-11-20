@@ -1,6 +1,6 @@
 <template>
   <section class="relative text-white py-16">
-    <!-- Background Image -->
+    <!-- Background -->
     <div class="absolute inset-0 bg-background/50 z-0"></div>
     <div class="absolute inset-0 z-0">
       <img
