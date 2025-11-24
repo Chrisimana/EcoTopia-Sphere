@@ -46,18 +46,18 @@
 import { ref, computed } from 'vue'
 
 // Import icons
-import icon14 from '../assets/icons/14.svg'
-import icon15 from '../assets/icons/15.svg'
-import icon16 from '../assets/icons/16.svg'
-import icon17 from '../assets/icons/17.svg'
-import icon18 from '../assets/icons/18.svg'
-import icon19 from '../assets/icons/19.svg'
-import icon20 from '../assets/icons/20.svg'
-import icon21 from '../assets/icons/21.svg'
-import icon22 from '../assets/icons/22.svg'
-import icon23 from '../assets/icons/23.svg'
-import icon24 from '../assets/icons/24.svg'
-import icon25 from '../assets/icons/25.svg'
+import icon14 from '../assets/icons/tips/hemat-energi-listrik.svg'
+import icon15 from '../assets/icons/tips/manfaatkan-cahaya-alami.svg'
+import icon16 from '../assets/icons/tips/gunakan-energi-terbarukan.svg'
+import icon17 from '../assets/icons/tips/hemat-air.svg'
+import icon18 from '../assets/icons/tips/tampung-air-hujan.svg'
+import icon19 from '../assets/icons/tips/mesin-cuci-efisien.svg'
+import icon20 from '../assets/icons/tips/pisahkan-sampah.svg'
+import icon21 from '../assets/icons/tips/kurangi-penggunaan-plastik.svg'
+import icon22 from '../assets/icons/tips/kompos-sampah-organik.svg'
+import icon23 from '../assets/icons/tips/transportasi-ramah-lingkungan.svg'
+import icon24 from '../assets/icons/tips/carpooling.svg'
+import icon25 from '../assets/icons/tips/kendaraan-listrik .svg'
 
 const activeCategory = ref('Semua')
 const categories = ['Semua', 'Energi', 'Air', 'Sampah', 'Transportasi']

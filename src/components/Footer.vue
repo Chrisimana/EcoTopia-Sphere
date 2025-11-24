@@ -10,13 +10,13 @@
         <!-- Social Media Icons -->
         <div class="flex space-x-4">
           <a href="https://www.instagram.com/chrisimana/" target="_blank" rel="noopener noreferrer" class="text-white hover:text-accent transition">
-            <img src="../assets/icons/instagram.svg" alt="Instagram" class="w-6 h-6">
+            <img src="../assets/icons/footer/instagram.svg" alt="Instagram" class="w-6 h-6">
           </a>
           <a href="https://www.linkedin.com/in/christian-imanuel-admojo-a78102324/" target="_blank" rel="noopener noreferrer" class="text-white hover:text-accent transition">
-            <img src="../assets/icons/linkedin.svg" alt="LinkedIn" class="w-6 h-6">
+            <img src="../assets/icons/footer/linkedin.svg" alt="LinkedIn" class="w-6 h-6">
           </a>
           <a href="https://github.com/Chrisimana" target="_blank" rel="noopener noreferrer" class="text-white hover:text-accent transition">
-            <img src="../assets/icons/github.svg" alt="Github" class="w-6 h-6">
+            <img src="../assets/icons/footer/github.svg" alt="Github" class="w-6 h-6">
           </a>
         </div>
       </div>
@@ -38,15 +38,15 @@
         <h4 class="font-bold mb-4 text-while">Contact</h4>
         <div class="space-y-3">
           <div class="flex items-start">
-            <img src="../assets/icons/email.svg" alt="Email" class="w-4 h-4 mt-1 mr-2">
+            <img src="../assets/icons/footer/email.svg" alt="Email" class="w-4 h-4 mt-1 mr-2">
             <span>11241022@student.itk.ac.id</span>
           </div>
           <div class="flex items-start">
-            <img src="../assets/icons/phone.svg" alt="Phone" class="w-4 h-4 mt-1 mr-2">
+            <img src="../assets/icons/footer/phone.svg" alt="Phone" class="w-4 h-4 mt-1 mr-2">
             <span>+62 822-6113-0256</span>
           </div>
           <div class="flex items-start">
-            <img src="../assets/icons/address.svg" alt="Location" class="w-4 h-4 mt-1 mr-2">
+            <img src="../assets/icons/footer/address.svg" alt="Location" class="w-4 h-4 mt-1 mr-2">
             <span>Jl. Sei Wain No.25, Balikpapan, Kalimantan Timur, Indonesia</span>
           </div>
         </div>

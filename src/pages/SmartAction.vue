@@ -1,38 +1,78 @@
 <template>
   <div class="bg-white">
     <HeroSectionSmartAction />
-    <ShareActionSection />
-    <SharedActionsSection />
-
+    <ShareActionSection @submit="handleSubmit" />
+    <SharedActionsSection :actions="actions" />
     <CtaSectionSmartAction />
-    <ActionModal :is-open="showModal" :data="submittedData" @close="closeModal" />
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import HeroSectionSmartAction from '../components/HeroSectionSmartAction.vue'
 import ShareActionSection from '../components/ShareActionSection.vue'
 import SharedActionsSection from '../components/SharedActionsSection.vue'
 import CtaSectionSmartAction from '../components/CtaSectionSmartAction.vue'
-import ActionModal from '../components/ActionModal.vue'
 
-const showModal = ref(false)
-const submittedData = ref({})
 const actions = ref([])
 
+// Load data dari localStorage saat komponen dimuat
+onMounted(() => {
+  const savedActions = localStorage.getItem('smartActions')
+  if (savedActions) {
+    actions.value = JSON.parse(savedActions)
+  }
+})
+
 const handleSubmit = (data) => {
-  submittedData.value = data
-  actions.value.push({ ...data, id: Date.now() })
-  showModal.value = true
+  const newAction = {
+    ...data,
+    id: Date.now(),
+    timestamp: new Date().toISOString()
+  }
+
+  // Tambahkan ke array actions (auto update tanpa reload)
+  actions.value.unshift(newAction)
+
+  // Simpan ke localStorage
+  localStorage.setItem('smartActions', JSON.stringify(actions.value))
 }
 
-const closeModal = () => {
-  showModal.value = false
-}
+// FITUR HAPUS RAHASIA UNTUK DEVELOPER
+onMounted(() => {
+  let dCount = 0
+  let timeoutId = null
 
-defineExpose({
-  actions,
-  handleSubmit
+  const handleKeydown = (e) => {
+    if (e.key === 'd' || e.key === 'D') {
+      dCount++
+
+      if (timeoutId) {
+        clearTimeout(timeoutId)
+      }
+      timeoutId = setTimeout(() => {
+        dCount = 0
+      }, 1000)
+
+      if (dCount === 3) {
+        localStorage.removeItem('smartActions')
+        actions.value = []
+        alert('🗑️ Semua data aksi berhasil dihapus!')
+        dCount = 0
+        if (timeoutId) {
+          clearTimeout(timeoutId)
+        }
+      }
+    }
+  }
+
+  window.addEventListener('keydown', handleKeydown)
+
+  return () => {
+    window.removeEventListener('keydown', handleKeydown)
+    if (timeoutId) {
+      clearTimeout(timeoutId)
+    }
+  }
 })
 </script>

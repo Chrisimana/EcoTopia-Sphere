@@ -6,12 +6,34 @@
       aria-modal="true"
       aria-labelledby="modal-title"
   >
-    <div class="bg-white text-black p-8 rounded-lg max-w-md w-full mx-4" ref="modalRef">
-      <h2 id="modal-title" class="text-xl font-bold mb-4">{{ data.title || 'Detail' }}</h2>
-      <p><strong>Deskripsi:</strong> {{ data.description }}</p>
-      <p v-if="data.detail"><strong>Detail:</strong> {{ data.detail }}</p>
-      <p><strong>Kategori:</strong> {{ data.category }}</p>
-      <button @click="close" class="mt-4 bg-primary text-white px-4 py-2 rounded hover:bg-secondary">Tutup</button>
+    <div class="bg-white text-background p-8 rounded-lg max-w-md w-full mx-4" ref="modalRef">
+      <h2 id="modal-title" class="text-2xl font-bold mb-6 text-primary text-center">Aksi Berhasil Dibagikan! 🎉</h2>
+
+      <div class="space-y-4 mb-6">
+        <div>
+          <p class="font-semibold text-primary mb-1">Nama:</p>
+          <p class="text-background">{{ data.name || 'Anonim' }}</p>
+        </div>
+
+        <div>
+          <p class="font-semibold text-primary mb-1">Aksi Hijau:</p>
+          <p class="text-background">{{ data.action }}</p>
+        </div>
+
+        <div>
+          <p class="font-semibold text-primary mb-1">Kategori:</p>
+          <span class="inline-block bg-accent text-background px-3 py-1 rounded-full text-sm font-medium">
+            {{ data.category }}
+          </span>
+        </div>
+      </div>
+
+      <button
+          @click="close"
+          class="w-full bg-primary text-white py-3 rounded-lg hover:bg-secondary transition font-bold"
+      >
+        Tutup
+      </button>
     </div>
   </div>
 </template>

@@ -9,5 +9,5 @@
 </template>
 
 <script setup>
-import inovasiIcon from '../assets/icons/11.svg'
+import inovasiIcon from '../assets/icons/inovasi-cerdas/mulai-inovasi-anda-hari-ini.svg'
 </script>

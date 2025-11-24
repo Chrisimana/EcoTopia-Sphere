@@ -3,7 +3,7 @@
     <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
       <router-link to="/" class="flex items-center">
         <!-- Logo -->
-        <img src="../assets/logo.jpg" height="40" width="40" class="h-8 w-8 md:h-10 md:w-10"/>
+        <img src="../assets/icons/navbar/logo.jpg" height="40" width="40" class="h-8 w-8 md:h-10 md:w-10"/>
 
         <!-- Tulisan EcoTopia Sphere -->
         <span class="text-xl md:text-2xl font-bold ml-2 md:ml-3">EcoTopia Sphere</span>

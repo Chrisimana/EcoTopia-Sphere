@@ -40,7 +40,7 @@
 </template>
 
 <script setup>
-import edukasiIcon from '../assets/icons/edukasi.svg'
-import aksiIcon from '../assets/icons/aksi.svg'
-import inovasiIcon from '../assets/icons/inovasi.svg'
+import edukasiIcon from '../assets/icons/beranda/edukasi.svg'
+import aksiIcon from '../assets/icons/beranda/aksi.svg'
+import inovasiIcon from '../assets/icons/beranda/inovasi.svg'
 </script>

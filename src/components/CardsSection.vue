@@ -19,16 +19,16 @@
 
 <script setup>
 // Import semua SVG icons
-import icon1 from '../assets/icons/1.svg'
-import icon2 from '../assets/icons/2.svg'
-import icon3 from '../assets/icons/3.svg'
-import icon4 from '../assets/icons/4.svg'
-import icon5 from '../assets/icons/5.svg'
-import icon6 from '../assets/icons/6.svg'
-import icon7 from '../assets/icons/7.svg'
-import icon8 from '../assets/icons/8.svg'
-import icon9 from '../assets/icons/9.svg'
-import icon10 from '../assets/icons/10.svg'
+import icon1 from '../assets/icons/inovasi-cerdas/pertanian-vertikal-cerdas.svg'
+import icon2 from '../assets/icons/inovasi-cerdas/sampah-jadi-energi.svg'
+import icon3 from '../assets/icons/inovasi-cerdas/penerangan-jalan-surya .svg'
+import icon4 from '../assets/icons/inovasi-cerdas/manajemen-air-pintar.svg'
+import icon5 from '../assets/icons/inovasi-cerdas/bangunan-hijau-otomatis.svg'
+import icon6 from '../assets/icons/inovasi-cerdas/aplikasi-mobilitas-terpadu.svg'
+import icon7 from '../assets/icons/inovasi-cerdas/taman-kota-digital.svg'
+import icon8 from '../assets/icons/inovasi-cerdas/pusat-daur-ulang-otomatis .svg'
+import icon9 from '../assets/icons/inovasi-cerdas/pemantauan-emisi-kendaraan.svg'
+import icon10 from '../assets/icons/inovasi-cerdas/energi-terbarukan-terintegrasi.svg'
 
 const inovasi = [
   {
