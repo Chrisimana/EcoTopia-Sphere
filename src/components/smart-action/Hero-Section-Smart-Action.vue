@@ -21,5 +21,5 @@
 </template>
 
 <script setup>
-import smartActionBg from '../assets/smartaction.jpg'
+import smartActionBg from '../../assets/smart-action.jpg'
 </script>

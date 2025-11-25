@@ -9,5 +9,5 @@
 </template>
 
 <script setup>
-import tipsIcon from '../assets/icons/tips/mulai-perubahan-hari-ini.svg'
+import tipsIcon from '../../assets/icons/tips/mulai-perubahan-hari-ini.svg'
 </script>

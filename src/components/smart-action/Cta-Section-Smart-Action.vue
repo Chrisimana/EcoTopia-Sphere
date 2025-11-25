@@ -10,5 +10,5 @@
 </template>
 
 <script setup>
-import smartActionIcon from '../assets/icons/smart-action/mulai-inovasi-anda-hari-ini.svg'
+import smartActionIcon from '../../assets/icons/smart-action/mulai-inovasi-anda-hari-ini.svg'
 </script>

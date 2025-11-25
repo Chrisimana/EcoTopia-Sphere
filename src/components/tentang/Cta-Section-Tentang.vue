@@ -11,5 +11,5 @@
 </template>
 
 <script setup>
-import tentangIcon from '../assets/icons/tentang/mari-memulai-perjalanan-hijau.svg'
+import tentangIcon from '../../assets/icons/tentang/mari-memulai-perjalanan-hijau.svg'
 </script>

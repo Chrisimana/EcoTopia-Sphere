@@ -18,17 +18,17 @@
 </template>
 
 <script setup>
-// Import semua SVG icons
-import icon1 from '../assets/icons/inovasi-cerdas/pertanian-vertikal-cerdas.svg'
-import icon2 from '../assets/icons/inovasi-cerdas/sampah-jadi-energi.svg'
-import icon3 from '../assets/icons/inovasi-cerdas/penerangan-jalan-surya .svg'
-import icon4 from '../assets/icons/inovasi-cerdas/manajemen-air-pintar.svg'
-import icon5 from '../assets/icons/inovasi-cerdas/bangunan-hijau-otomatis.svg'
-import icon6 from '../assets/icons/inovasi-cerdas/aplikasi-mobilitas-terpadu.svg'
-import icon7 from '../assets/icons/inovasi-cerdas/taman-kota-digital.svg'
-import icon8 from '../assets/icons/inovasi-cerdas/pusat-daur-ulang-otomatis .svg'
-import icon9 from '../assets/icons/inovasi-cerdas/pemantauan-emisi-kendaraan.svg'
-import icon10 from '../assets/icons/inovasi-cerdas/energi-terbarukan-terintegrasi.svg'
+// Import icons
+import icon1 from '../../assets/icons/inovasi-cerdas/pertanian-vertikal-cerdas.svg'
+import icon2 from '../../assets/icons/inovasi-cerdas/sampah-jadi-energi.svg'
+import icon3 from '../../assets/icons/inovasi-cerdas/penerangan-jalan-surya .svg'
+import icon4 from '../../assets/icons/inovasi-cerdas/manajemen-air-pintar.svg'
+import icon5 from '../../assets/icons/inovasi-cerdas/bangunan-hijau-otomatis.svg'
+import icon6 from '../../assets/icons/inovasi-cerdas/aplikasi-mobilitas-terpadu.svg'
+import icon7 from '../../assets/icons/inovasi-cerdas/taman-kota-digital.svg'
+import icon8 from '../../assets/icons/inovasi-cerdas/pusat-daur-ulang-otomatis .svg'
+import icon9 from '../../assets/icons/inovasi-cerdas/pemantauan-emisi-kendaraan.svg'
+import icon10 from '../../assets/icons/inovasi-cerdas/energi-terbarukan-terintegrasi.svg'
 
 const inovasi = [
   {

@@ -21,5 +21,5 @@
 </template>
 
 <script setup>
-import tipsBg from '../assets/tips.jpg'
+import tipsBg from '../../assets/tips.jpg'
 </script>

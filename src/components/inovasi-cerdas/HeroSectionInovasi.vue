@@ -21,5 +21,5 @@
 </template>
 
 <script setup>
-import inovasiBg from '../assets/inovasi.jpg'
+import inovasiBg from '../../assets/inovasi-cerdas.jpg'
 </script>

@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-import HeroSectionTips from '../components/HeroSectionTips.vue'
-import TipsGridSection from '../components/TipsGridSection.vue'
-import CtaSectionTips from '../components/CtaSectionTips.vue'
+import HeroSectionTips from '../components/tips/Hero-Section-Tips.vue'
+import TipsGridSection from '../components/tips/Tips-Grid-Section.vue'
+import CtaSectionTips from '../components/tips/Cta-Section-Tips.vue'
 </script>

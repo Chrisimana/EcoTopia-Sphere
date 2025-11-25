@@ -20,5 +20,5 @@
 </template>
 
 <script setup>
-import tentangBg from '../assets/tentang.jpg'
+import tentangBg from '../../assets/tentang.jpg'
 </script>

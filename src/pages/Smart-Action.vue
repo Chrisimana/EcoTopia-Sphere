@@ -9,10 +9,10 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import HeroSectionSmartAction from '../components/HeroSectionSmartAction.vue'
-import ShareActionSection from '../components/ShareActionSection.vue'
-import SharedActionsSection from '../components/SharedActionsSection.vue'
-import CtaSectionSmartAction from '../components/CtaSectionSmartAction.vue'
+import HeroSectionSmartAction from '../components/smart-action/Hero-Section-Smart-Action.vue'
+import ShareActionSection from '../components/smart-action/Share-Action-Section.vue'
+import SharedActionsSection from '../components/smart-action/Shared-Actions-Section.vue'
+import CtaSectionSmartAction from '../components/smart-action/Cta-Section-Smart-Action.vue'
 
 const actions = ref([])
 

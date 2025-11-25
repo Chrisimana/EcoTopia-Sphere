@@ -41,5 +41,5 @@
 </template>
 
 <script setup>
-import berandaBg from '../assets/beranda.jpg'
+import berandaBg from '../../assets/beranda.jpg'
 </script>

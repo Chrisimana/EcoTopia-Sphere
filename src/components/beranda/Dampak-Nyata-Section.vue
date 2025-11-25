@@ -70,10 +70,10 @@
 
 <script setup>
 import { onMounted, ref } from 'vue'
-import energiIcon from '../assets/icons/beranda/penghematan-energi-rumah-tangga.svg'
-import plastikIcon from '../assets/icons/beranda/pengurangan-sampah-plastik.svg'
-import sepedaIcon from '../assets/icons/beranda/transportasi-ramah-lingkungan.svg'
-import orangIcon from '../assets/icons/beranda/partisipasi-masyarakat-hijau.svg'
+import energiIcon from '../../assets/icons/beranda/penghematan-energi-rumah-tangga.svg'
+import plastikIcon from '../../assets/icons/beranda/pengurangan-sampah-plastik.svg'
+import sepedaIcon from '../../assets/icons/beranda/transportasi-ramah-lingkungan.svg'
+import orangIcon from '../../assets/icons/beranda/partisipasi-masyarakat-hijau.svg'
 
 const animatedValues = ref([0, 0, 0, 0])
 const finalValues = [75, 70, 75, 80]

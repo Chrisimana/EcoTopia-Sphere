@@ -2,8 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Beranda from '../pages/Beranda.vue'
 import Tentang from '../pages/Tentang.vue'
 import Tips from '../pages/Tips.vue'
-import InovasiCerdas from '../pages/InovasiCerdas.vue'
-import SmartAction from '../pages/SmartAction.vue'
+import InovasiCerdas from '../pages/Inovasi-Cerdas.vue'
+import SmartAction from '../pages/Smart-Action.vue'
 
 const routes = [
     { path: '/', name: 'Beranda', component: Beranda },
@@ -16,52 +16,52 @@ const routes = [
     {
         path: '/artikel/hemat-energi-listrik',
         name: 'HematEnergiListrik',
-        component: () => import('../pages/artikel/HematEnergiListrik.vue')
+        component: () => import('../pages/artikel/Hemat-Energi-Listrik.vue')
     },
     {
         path: '/artikel/manfaat-cahaya-alami',
         name: 'ManfaatCahayaAlami',
-        component: () => import('../pages/artikel/ManfaatCahayaAlami.vue')
+        component: () => import('../pages/artikel/Manfaat-Cahaya-Alami.vue')
     },
     {
         path: '/artikel/gunakan-energi-terbarukan',
         name: 'GunakanEnergiTerbarukan',
-        component: () => import('../pages/artikel/GunakanEnergiTerbarukan.vue')
+        component: () => import('../pages/artikel/Gunakan-Energi-Terbarukan.vue')
     },
     {
         path: '/artikel/hemat-air',
         name: 'HematAir',
-        component: () => import('../pages/artikel/HematAir.vue')
+        component: () => import('../pages/artikel/Hemat-Air.vue')
     },
     {
         path: '/artikel/tampung-air-hujan',
         name: 'TampungAirHujan',
-        component: () => import('../pages/artikel/TampungAirHujan.vue')
+        component: () => import('../pages/artikel/Tampung-Air-Hujan.vue')
     },
     {
         path: '/artikel/mesin-cuci-efisien',
         name: 'MesinCuciEfisien',
-        component: () => import('../pages/artikel/MesinCuciEfisien.vue')
+        component: () => import('../pages/artikel/Mesin-Cuci-Efisien.vue')
     },
     {
         path: '/artikel/pisahkan-sampah',
         name: 'PisahkanSampah',
-        component: () => import('../pages/artikel/PisahkanSampah.vue')
+        component: () => import('../pages/artikel/Pisahkan-Sampah.vue')
     },
     {
         path: '/artikel/kurangi-penggunaan-plastik',
         name: 'KurangiPenggunaanPlastik',
-        component: () => import('../pages/artikel/KurangiPenggunaanPlastik.vue')
+        component: () => import('../pages/artikel/Kurangi-Penggunaan-Plastik.vue')
     },
     {
         path: '/artikel/kompos-sampah-organik',
         name: 'KomposSampahOrganik',
-        component: () => import('../pages/artikel/KomposSampahOrganik.vue')
+        component: () => import('../pages/artikel/Kompos-Sampah-Organik.vue')
     },
     {
         path: '/artikel/transportasi-ramah-lingkungan',
         name: 'TransportasiRamahLingkungan',
-        component: () => import('../pages/artikel/TransportasiRamahLingkungan.vue')
+        component: () => import('../pages/artikel/Transportasi-Ramah-Lingkungan.vue')
     },
     {
         path: '/artikel/carpooling',
@@ -71,7 +71,7 @@ const routes = [
     {
         path: '/artikel/kendaraan-listrik',
         name: 'KendaraanListrik',
-        component: () => import('../pages/artikel/KendaraanListrik.vue')
+        component: () => import('../pages/artikel/Kendaraan-Listrik.vue')
     },
 ]
 
