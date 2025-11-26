@@ -1,7 +1,7 @@
 <template>
-  <section class="bg-white py-8">
-    <div class="container mx-auto px-4">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+  <section class="bg-white py-16 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div
             v-for="card in inovasi"
             :key="card.id"
@@ -9,8 +9,8 @@
         >
           <!-- Icon -->
           <img :src="card.icon" :alt="card.title" class="w-12 h-12 text-primary mb-4">
-          <h3 class="font-bold text-lg mb-2">{{ card.title }}</h3>
-          <p class="text-sm text-gray-600">{{ card.description }}</p>
+          <h3 class="font-bold text-xl text-background mb-3">{{ card.title }}</h3>
+          <p class="text-primary">{{ card.description }}</p>
         </div>
       </div>
     </div>
