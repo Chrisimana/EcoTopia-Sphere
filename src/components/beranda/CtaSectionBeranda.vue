@@ -1,4 +1,6 @@
 <template>
+
+  <!-- CTA Section -->
   <section class="bg-white py-16">
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-3xl font-bold mb-6 text-background">Bersama Kita Bisa</h2>
