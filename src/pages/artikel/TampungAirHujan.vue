@@ -24,7 +24,7 @@
         <div class="space-y-12">
           <section>
             <h2 class="text-3xl font-bold text-background mb-6">1. Pahami Konsep Rainwater Harvesting</h2>
-            <div class="prose prose-lg max-w-none text-gray-700">
+            <div class="prose prose-lg max-w-none text-primary">
               <p class="text-lg leading-relaxed text-justify">
                 Secara ilmiah, rainwater harvesting adalah proses mengumpulkan dan menyimpan air hujan dari permukaan seperti atap, halaman, atau bangunan untuk digunakan kembali. Manfaat, mengurangi tekanan terhadap sumber air tanah dan PDAM, mengurangi risiko banjir akibat limpasan air hujan, menyediakan cadangan air saat musim kemarau. Air hujan umumnya bersifat lunak (low hardness) dan mengandung sedikit mineral, sehingga relatif aman untuk kebutuhan non-minum tanpa perlakuan khusus.
               </p>
@@ -33,7 +33,7 @@
 
           <section>
             <h2 class="text-3xl font-bold text-background mb-6">2. Gunakan Permukaan Atap yang Bersih dan Aman</h2>
-            <div class="prose prose-lg max-w-none text-gray-700">
+            <div class="prose prose-lg max-w-none text-primary">
               <p class="text-lg leading-relaxed text-justify">
                 Kualitas air hujan yang ditampung sangat bergantung pada kebersihan permukaan atap. Tips, gunakan atap berbahan genteng tanah liat, beton, atau logam galvanis yang tidak mudah berkarat, hindari atap asbes atau atap yang dilapisi cat beracun, bersihkan atap secara berkala dari debu, daun, dan kotoran burung. Kontaminan dari permukaan atap dapat meningkatkan kadar bakteri koliform dan logam berat dalam air tampungan.
               </p>
@@ -42,7 +42,7 @@
 
           <section>
             <h2 class="text-3xl font-bold text-background mb-6">3. Pasang Sistem Gutter dan Downspout yang Efisien</h2>
-            <div class="prose prose-lg max-w-none text-gray-700">
+            <div class="prose prose-lg max-w-none text-primary">
               <p class="text-lg leading-relaxed text-justify">
                 Sistem talang (gutter) dan pipa penyalur (downspout) berfungsi mengarahkan air dari atap menuju tangki penampungan. Tips, gunakan bahan PVC atau stainless steel yang tahan korosi, pastikan kemiringan talang minimal 2% agar air mengalir lancar, pasang saringan (mesh filter) di ujung talang untuk menahan dedaunan dan kotoran. Dengan desain yang benar, kehilangan air akibat tumpahan dapat ditekan hingga di bawah 5%.
               </p>
@@ -51,7 +51,7 @@
 
           <section>
             <h2 class="text-3xl font-bold text-background mb-6">4. Gunakan Sistem First Flush Diverter</h2>
-            <div class="prose prose-lg max-w-none text-gray-700">
+            <div class="prose prose-lg max-w-none text-primary">
               <p class="text-lg leading-relaxed text-justify">
                 Sistem ini berfungsi membuang aliran awal air hujan (first flush) yang biasanya mengandung debu, kotoran, dan cemaran dari atap. Penjelasan ilmiah: 5–10 liter pertama air hujan biasanya mengandung kontaminan organik dan partikel padat lebih tinggi. Tips, pasang first flush diverter sederhana berupa pipa vertikal dengan katup pelepas otomatis, kosongkan dan bersihkan secara berkala untuk menjaga kualitas air.
               </p>
@@ -60,7 +60,7 @@
 
           <section>
             <h2 class="text-3xl font-bold text-background mb-6">5. Pilih Tangki Penampungan yang Tepat</h2>
-            <div class="prose prose-lg max-w-none text-gray-700">
+            <div class="prose prose-lg max-w-none text-primary">
               <p class="text-lg leading-relaxed text-justify">
                 Tangki merupakan komponen utama sistem penampungan air hujan. Gunakan tangki berbahan HDPE (High-Density Polyethylene), beton bertulang, atau fiber glass. Tangki harus tertutup rapat untuk mencegah nyamuk dan lumut. Letakkan di tempat teduh untuk mengurangi pertumbuhan alga akibat sinar matahari. Kapasitas ideal untuk tangki adalah tangki 1.000 liter yang dapat memenuhi kebutuhan air non-minum rumah tangga kecil selama 3–5 hari.
               </p>
@@ -69,7 +69,7 @@
 
           <section>
             <h2 class="text-3xl font-bold text-background mb-6">6. Terapkan Penyaringan Sederhana</h2>
-            <div class="prose prose-lg max-w-none text-gray-700">
+            <div class="prose prose-lg max-w-none text-primary">
               <p class="text-lg leading-relaxed text-justify">
                 Untuk menjaga kebersihan air, lakukan filtrasi dasar sebelum digunakan. Gunakan lapisan pasir, batu kerikil, dan arang aktif. Tambahkan kain kasa atau serat kelapa di lapisan atas. Bersihkan filter setiap dua minggu. Mengurangi kekeruhan dan bau, serta menurunkan kadar bakteri hingga 80%.
               </p>
@@ -78,7 +78,7 @@
 
           <section>
             <h2 class="text-3xl font-bold text-background mb-6">7. Gunakan Air Hujan untuk Kebutuhan Non-Konsumsi</h2>
-            <div class="prose prose-lg max-w-none text-gray-700">
+            <div class="prose prose-lg max-w-none text-primary">
               <p class="text-lg leading-relaxed text-justify">
                 Air hujan yang ditampung tidak disarankan untuk diminum tanpa proses penyaringan lanjutan seperti reverse osmosis atau UV sterilizer. Namun, sangat ideal untuk menyiram tanaman dan taman, mencuci kendaraan, membersihkan lantai dan toilet, cadangan air darurat saat suplai PDAM terganggu. Sekitar 40–50% penggunaan air rumah tangga bisa dialihkan ke air hujan tanpa mengurangi kenyamanan hidup.
               </p>
@@ -87,7 +87,7 @@
 
           <section>
             <h2 class="text-3xl font-bold text-background mb-6">8. Integrasikan Sistem ke dalam Desain Rumah</h2>
-            <div class="prose prose-lg max-w-none text-gray-700">
+            <div class="prose prose-lg max-w-none text-primary">
               <p class="text-lg leading-relaxed text-justify">
                 Dalam arsitektur hijau (green building), sistem penampungan air hujan sering digabungkan dengan elemen desain rumah. Contoh, atap miring diarahkan menuju tangki bawah tanah. Halaman menggunakan paving berpori agar air terserap ke tanah (recharge). Sistem ini mendukung siklus air alami dan meningkatkan cadangan air tanah lokal.
               </p>
@@ -96,7 +96,7 @@
 
           <section>
             <h2 class="text-3xl font-bold text-background mb-6">9. Kombinasikan dengan Sistem Irigasi Tetes (Drip Irrigation)</h2>
-            <div class="prose prose-lg max-w-none text-gray-700">
+            <div class="prose prose-lg max-w-none text-primary">
               <p class="text-lg leading-relaxed text-justify">
                 Air hujan yang ditampung dapat langsung digunakan untuk menyiram tanaman dengan sistem tetes. Kelebihan, mengurangi penguapan air hingga 60%, menyalurkan air langsung ke akar tanaman, menekan pertumbuhan gulma karena permukaan tanah tetap kering. Kombinasi ini ideal bagi rumah dengan taman kecil atau urban farming.
               </p>
@@ -105,7 +105,7 @@
 
           <section>
             <h2 class="text-3xl font-bold text-background mb-6">10. Lakukan Perawatan Rutin</h2>
-            <div class="prose prose-lg max-w-none text-gray-700">
+            <div class="prose prose-lg max-w-none text-primary">
               <p class="text-lg leading-relaxed text-justify">
                 Perawatan sistem rainwater harvesting menentukan efisiensi jangka panjang. Langkah perawatan, bersihkan talang minimal sebulan sekali, cek sambungan pipa dari kebocoran, kosongkan dan sikat tangki dua kali setahun. Endapan organik yang menumpuk di dasar tangki dapat memicu pertumbuhan bakteri anaerob yang menghasilkan bau dan gas beracun seperti H₂S.
               </p>
@@ -114,7 +114,7 @@
 
           <section>
             <h2 class="text-3xl font-bold text-background mb-6">11. Gunakan Teknologi Sensor dan Otomatisasi</h2>
-            <div class="prose prose-lg max-w-none text-gray-700">
+            <div class="prose prose-lg max-w-none text-primary">
               <p class="text-lg leading-relaxed text-justify">
                 Kemajuan teknologi memungkinkan pemantauan volume dan kualitas air secara otomatis. Contoh inovasi, sensor ketinggian air berbasis ultrasonik, katup otomatis untuk mengalihkan aliran air bila tangki penuh, aplikasi digital untuk memantau konsumsi air hujan. Sistem otomatisasi dapat meningkatkan efisiensi hingga 25% dan mencegah pemborosan air.
               </p>
@@ -123,7 +123,7 @@
 
           <section>
             <h2 class="text-3xl font-bold text-background mb-6">12. Manfaatkan dalam Skala Komunitas</h2>
-            <div class="prose prose-lg max-w-none text-gray-700">
+            <div class="prose prose-lg max-w-none text-primary">
               <p class="text-lg leading-relaxed text-justify">
                 Selain rumah tangga, konsep penampungan air hujan dapat diterapkan di sekolah, kantor, atau lingkungan RT/RW. Strateginya yaitu bangun tangki besar bersama (komunal tank), gunakan air hujan untuk menyiram taman publik, edukasi warga tentang pentingnya konservasi air. Meningkatkan kemandirian air dan mengurangi ketergantungan terhadap infrastruktur kota.
               </p>
