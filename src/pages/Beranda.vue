@@ -8,8 +8,8 @@
 </template>
 
 <script setup>
-import HeroSectionBeranda from '../components/beranda/Hero-Section-Beranda.vue'
-import EdukasiAksiInovasiSection from '../components/beranda/Edukasi-Aksi-Inovasi-Section.vue'
-import DampakNyataSection from '../components/beranda/Dampak-Nyata-Section.vue'
-import CtaSectionBeranda from '../components/beranda/Cta-Section-Beranda.vue'
+import HeroSectionBeranda from '../components/beranda/HeroSectionBeranda.vue'
+import EdukasiAksiInovasiSection from '../components/beranda/EdukasiAksiInovasiSection.vue'
+import DampakNyataSection from '../components/beranda/DampakNyataSection.vue'
+import CtaSectionBeranda from '../components/beranda/CtaSectionBeranda.vue'
 </script>

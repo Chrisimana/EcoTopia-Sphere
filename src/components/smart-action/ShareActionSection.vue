@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-import ActionForm from './Action-Form.vue'
+import ActionForm from './ActionForm.vue'
 
 defineEmits(['submit'])
 </script>
