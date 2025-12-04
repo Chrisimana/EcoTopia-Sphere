@@ -5,14 +5,17 @@ import Tips from '../pages/Tips.vue'
 import InovasiCerdas from '../pages/InovasiCerdas.vue'
 import SmartAction from '../pages/SmartAction.vue'
 
+// Definisi untuk semua router
 const routes = [
+
+    // Router utama
     { path: '/', name: 'Beranda', component: Beranda },
     { path: '/tentang', name: 'Tentang', component: Tentang },
     { path: '/tips', name: 'Tips', component: Tips },
     { path: '/inovasi-cerdas', name: 'InovasiCerdas', component: InovasiCerdas },
     { path: '/smart-action', name: 'SmartAction', component: SmartAction },
 
-    // Artikel Routes
+    // Router Artikel
     {
         path: '/artikel/hemat-energi-listrik',
         name: 'HematEnergiListrik',
@@ -75,9 +78,16 @@ const routes = [
     },
 ]
 
+// Membuat instance router Vue
 const router = createRouter({
+
+    // Mode history untuk URL yang bersih (tanpa hash)
     history: createWebHistory(),
+
+    // Daftar route yang telah didefinisikan
     routes,
+
+    // Scroll kembali ke atas saat pindah route
     scrollBehavior(to, from, savedPosition) {
         return {
             top: 0,

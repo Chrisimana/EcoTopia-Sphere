@@ -9,6 +9,7 @@
 </template>
 
 <script setup>
+// Import komponen-komponen section untuk halaman Tentang
 import HeroSectionTentang from '../components/tentang/HeroSectionTentang.vue'
 import VisiMisiSection from '../components/tentang/VisiMisiSection.vue'
 import MaknaNamaSection from '../components/tentang/MaknaNamaSection.vue'

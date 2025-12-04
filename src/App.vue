@@ -3,6 +3,7 @@
     <!-- Navbar hanya muncul di halaman tertentu -->
     <Navbar v-if="showNavbar" />
 
+    <!-- Area konten berdasarkan route -->
     <router-view />
 
     <!-- Footer hanya muncul di halaman tertentu -->
