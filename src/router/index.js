@@ -4,6 +4,7 @@ import Tentang from '../pages/Tentang.vue'
 import Tips from '../pages/Tips.vue'
 import InovasiCerdas from '../pages/InovasiCerdas.vue'
 import SmartAction from '../pages/SmartAction.vue'
+import CV from '../pages/CV.vue'
 
 // Definisi untuk semua router
 const routes = [
@@ -14,6 +15,7 @@ const routes = [
     { path: '/tips', name: 'Tips', component: Tips },
     { path: '/inovasi-cerdas', name: 'InovasiCerdas', component: InovasiCerdas },
     { path: '/smart-action', name: 'SmartAction', component: SmartAction },
+    { path: '/cv', name: 'CV', component: CV },
 
     // Router Artikel
     {
