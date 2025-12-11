@@ -56,7 +56,6 @@
   object-fit: cover;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .profile-content {
     flex-direction: column;
